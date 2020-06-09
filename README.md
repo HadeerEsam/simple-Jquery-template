@@ -1,6 +1,5 @@
 # simple-Jquery-template
 Training on Using jquery.
-
 1-slide of side navbar.
 2-accordion cards.
 3-passed event counter. 
