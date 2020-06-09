@@ -1,0 +1,233 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    
+}
+
+/* ****************************** header design******************** */
+#home{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 660px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.bgLayer{
+    background-color:rgba(214, 46, 51 , 0.6) ;
+    height: 100%;
+}
+.title-container{
+    height: 100%;
+}
+h1{
+    font-size: 60px;
+}
+
+.title{
+    position: relative;
+    left: 0;
+}
+.menu-btn{
+    position: relative;
+    font-size: 30px;
+    cursor: pointer;
+    left:15px;    
+}
+nav{
+    background-color: #414658;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -250px;
+   z-index: 999;
+}
+.nav-link{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+#close{
+    cursor: pointer;
+    float: right;
+    font-size: 25px;
+}
+.nav-link:hover,#close:hover{
+    color: rgba(214, 46, 51 , 0.4);
+}
+
+/*  **********************singers section ************************** */
+#singers h3{
+    background-color: rgba(214, 46, 51 , 0.6);
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 24px;
+    margin: 0;
+}
+.singer-info{
+    background-color: #cccccc;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
+    display: none;
+}
+#singers .first{
+    display: block;
+}
+
+/*  **********************events section ************************** */
+
+#event{
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 330px;
+
+}
+.counter{
+    border: 1px #ffffff solid;
+    color: white;
+    text-align: center;
+    padding: 70px;
+}
+
+/*  **********************contact section ************************** */
+
+#contact{
+    color: #777777;
+}
+#contact h2,#contact h5{
+    color: #444444;
+    font-weight: 700;
+}
+ul{
+    list-style: none;
+}
+li i{
+    margin-right: 20px;
+}
+.email{
+    color:#D62e33;
+}
+.letter-count{
+    color:#D62e33;
+    font-size: 20px;
+}
+
+.icons i{
+    margin-right: 10px;
+    border: 1px solid #999999;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 42px;
+}
+.icons i:hover{
+    background-color: #D62e33;
+    color: white;
+}
+
+
+
+/* ******************mobile ******************/
+
+@media screen and (max-width:600px){
+    #home{
+        height: 460px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .menu-btn{
+        font-size: 15px;
+    }
+    nav{
+        width: 80px;
+    }
+    .nav-link{
+        margin-left: 3px;
+        font-size: 10px;
+        
+    }
+    #close{
+        font-size: 10px;
+    }
+    #singers h3{
+        padding: 5px;
+        font-size: 12px;
+    }
+    .singer-info{
+        font-size: 7px;
+        padding: 5px;
+       
+    }
+    .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .container{
+        width: 90%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #event{
+        height: 145px;
+    }
+    .counter{
+        padding:25px 15px;
+    }
+    .counter h3{
+        font-size: 10px;
+    }
+    #contact{
+        font-size: 8px;
+    }
+    #contact h2{
+        font-size: 10px;
+    }
+    #contact h5{
+        font-size: 8px;
+    }
+    input,textarea,form button{
+        font-size: 10px !important;
+    }
+    .icons i{
+        font-size: 8px;
+        width: 20px;
+    height: 20px;
+    line-height: 22px;
+    }
+    .letter-count{
+        font-size: 10px;
+    }
+
+}
+/********** tablet *******************************/
+@media screen and (max-width:992px) and (min-width:601px) {
+    #event{
+        height: 260px;
+    }
+    .counter{
+        padding:50px 40px;
+    }
+    .counter h3{
+        font-size: 20px;
+    }
+    nav{
+        width: 210px;
+    }
+    .nav-link{
+        margin-left: 10px;
+        font-size: 18px;
+        
+    }
+    #close{
+        font-size: 25px;
+    }
+}
