@@ -1,4 +1,5 @@
 # simple-Jquery-template
+
 Training on Using jquery.
 
 1-slide of side navbar.
