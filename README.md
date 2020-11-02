@@ -12,4 +12,6 @@ Training on Using jquery.
 
 5-limit number of charecter in message.
 
+link: https://simple-jquery-template.now.sh/
+
 
